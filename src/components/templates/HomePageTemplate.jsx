@@ -18,8 +18,8 @@ const HomePageTemplate = ({ data }) => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-surface-50 to-surface-100 overflow-x-hidden">
+return (
+    <div className="min-h-screen relative overflow-x-hidden">
       <SkipNav />
       <NavBar scrollY={scrollY} />
       <HeroSection scrollY={scrollY} />

@@ -4,31 +4,53 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#6366F1',
-          light: '#818CF8',
-          dark: '#4F46E5'
+          DEFAULT: '#3B82F6',
+          light: '#60A5FA',
+          dark: '#1D4ED8',
+          neon: '#00D4FF'
         },
         secondary: {
-          DEFAULT: '#10B981',
-          light: '#34D399',
-          dark: '#059669'
+          DEFAULT: '#06FFA5',
+          light: '#4FFFB0',
+          dark: '#00FF87',
+          electric: '#00FF41'
         },
-        accent: '#F59E0B',
+        accent: {
+          DEFAULT: '#8B5CF6',
+          light: '#A78BFA',
+          dark: '#7C3AED',
+          neon: '#FF00FF'
+        },
+        ai: {
+          blue: '#0EA5E9',
+          purple: '#8B5CF6',
+          cyan: '#06B6D4',
+          teal: '#14B8A6',
+          indigo: '#6366F1',
+          violet: '#7C3AED',
+          pink: '#EC4899',
+          neural: '#00D4FF'
+        },
         surface: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a'
+          50: '#0F0F23',
+          100: '#1A1A2E',
+          200: '#16213E',
+          300: '#0F3460',
+          400: '#533A7B',
+          500: '#6B46C1',
+          600: '#7C3AED',
+          700: '#8B5CF6',
+          800: '#A78BFA',
+          900: '#C4B5FD'
+        },
+        dark: {
+          primary: '#0B0F1A',
+          secondary: '#0F172A',
+          accent: '#1E293B'
         }
       },
       fontFamily: {
