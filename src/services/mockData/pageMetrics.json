@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "sessionId": "session_001",
+    "scrollDepth": 85,
+    "timeOnPage": 245,
+    "interactionsCount": 12,
+    "conversionPoint": "early_access_application",
+    "timestamp": "2024-01-20T10:30:00Z",
+    "deviceType": "desktop",
+    "browserType": "chrome"
+  },
+  {
+    "id": 2,
+    "sessionId": "session_002",
+    "scrollDepth": 92,
+    "timeOnPage": 320,
+    "interactionsCount": 18,
+    "conversionPoint": "demo_booking",
+    "timestamp": "2024-01-20T11:15:00Z",
+    "deviceType": "mobile",
+    "browserType": "safari"
+  },
+  {
+    "id": 3,
+    "sessionId": "session_003",
+    "scrollDepth": 67,
+    "timeOnPage": 180,
+    "interactionsCount": 8,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-20T12:45:00Z",
+    "deviceType": "tablet",
+    "browserType": "firefox"
+  },
+  {
+    "id": 4,
+    "sessionId": "session_004",
+    "scrollDepth": 100,
+    "timeOnPage": 420,
+    "interactionsCount": 25,
+    "conversionPoint": "early_access_application",
+    "timestamp": "2024-01-20T14:20:00Z",
+    "deviceType": "desktop",
+    "browserType": "chrome"
+  },
+  {
+    "id": 5,
+    "sessionId": "session_005",
+    "scrollDepth": 78,
+    "timeOnPage": 195,
+    "interactionsCount": 14,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-20T15:30:00Z",
+    "deviceType": "mobile",
+    "browserType": "chrome"
+  },
+  {
+    "id": 6,
+    "sessionId": "session_006",
+    "scrollDepth": 89,
+    "timeOnPage": 285,
+    "interactionsCount": 16,
+    "conversionPoint": "demo_booking",
+    "timestamp": "2024-01-21T09:45:00Z",
+    "deviceType": "desktop",
+    "browserType": "edge"
+  },
+  {
+    "id": 7,
+    "sessionId": "session_007",
+    "scrollDepth": 55,
+    "timeOnPage": 95,
+    "interactionsCount": 5,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-21T10:20:00Z",
+    "deviceType": "mobile",
+    "browserType": "safari"
+  },
+  {
+    "id": 8,
+    "sessionId": "session_008",
+    "scrollDepth": 95,
+    "timeOnPage": 380,
+    "interactionsCount": 22,
+    "conversionPoint": "early_access_application",
+    "timestamp": "2024-01-21T13:15:00Z",
+    "deviceType": "desktop",
+    "browserType": "firefox"
+  },
+  {
+    "id": 9,
+    "sessionId": "session_009",
+    "scrollDepth": 72,
+    "timeOnPage": 210,
+    "interactionsCount": 11,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-21T16:40:00Z",
+    "deviceType": "tablet",
+    "browserType": "chrome"
+  },
+  {
+    "id": 10,
+    "sessionId": "session_010",
+    "scrollDepth": 88,
+    "timeOnPage": 265,
+    "interactionsCount": 19,
+    "conversionPoint": "demo_booking",
+    "timestamp": "2024-01-22T08:30:00Z",
+    "deviceType": "desktop",
+    "browserType": "chrome"
+  },
+  {
+    "id": 11,
+    "sessionId": "session_011",
+    "scrollDepth": 91,
+    "timeOnPage": 340,
+    "interactionsCount": 20,
+    "conversionPoint": "early_access_application",
+    "timestamp": "2024-01-22T11:25:00Z",
+    "deviceType": "mobile",
+    "browserType": "safari"
+  },
+  {
+    "id": 12,
+    "sessionId": "session_012",
+    "scrollDepth": 63,
+    "timeOnPage": 150,
+    "interactionsCount": 7,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-22T14:50:00Z",
+    "deviceType": "desktop",
+    "browserType": "edge"
+  },
+  {
+    "id": 13,
+    "sessionId": "session_013",
+    "scrollDepth": 97,
+    "timeOnPage": 450,
+    "interactionsCount": 28,
+    "conversionPoint": "demo_booking",
+    "timestamp": "2024-01-23T10:15:00Z",
+    "deviceType": "tablet",
+    "browserType": "firefox"
+  },
+  {
+    "id": 14,
+    "sessionId": "session_014",
+    "scrollDepth": 74,
+    "timeOnPage": 220,
+    "interactionsCount": 13,
+    "conversionPoint": "none",
+    "timestamp": "2024-01-23T15:30:00Z",
+    "deviceType": "mobile",
+    "browserType": "chrome"
+  },
+  {
+    "id": 15,
+    "sessionId": "session_015",
+    "scrollDepth": 86,
+    "timeOnPage": 295,
+    "interactionsCount": 17,
+    "conversionPoint": "early_access_application",
+    "timestamp": "2024-01-24T12:45:00Z",
+    "deviceType": "desktop",
+    "browserType": "safari"
+  }
+]
