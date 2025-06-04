@@ -21,9 +21,11 @@ const HomePageTemplate = ({ data }) => {
 
 return (
     <div className="min-h-screen relative overflow-x-hidden">
-      <SkipNav />
+<SkipNav />
       <NavBar scrollY={scrollY} />
-      <HeroSection scrollY={scrollY} />
+      <div className="mt-20">
+        <HeroSection scrollY={scrollY} />
+      </div>
       <HowItWorksSection steps={data.steps} />
       <BenefitsSection benefits={data.benefits} />
       <FeaturesSection features={data.features} />
