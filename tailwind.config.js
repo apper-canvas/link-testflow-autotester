@@ -8,9 +8,9 @@ theme: {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#3B82F6',
-          light: '#60A5FA',
-          dark: '#1D4ED8',
+          DEFAULT: '#60A5FA',
+          light: '#93C5FD',
+          dark: '#3B82F6',
           neon: '#00D4FF'
         },
         secondary: {
@@ -20,19 +20,19 @@ theme: {
           electric: '#00FF41'
         },
         accent: {
-          DEFAULT: '#8B5CF6',
-          light: '#A78BFA',
-          dark: '#7C3AED',
+          DEFAULT: '#A78BFA',
+          light: '#C4B5FD',
+          dark: '#8B5CF6',
           neon: '#FF00FF'
         },
         ai: {
-          blue: '#0EA5E9',
-          purple: '#8B5CF6',
-          cyan: '#06B6D4',
-          teal: '#14B8A6',
-          indigo: '#6366F1',
-          violet: '#7C3AED',
-          pink: '#EC4899',
+          blue: '#60A5FA',
+          purple: '#A78BFA',
+          cyan: '#22D3EE',
+          teal: '#2DD4BF',
+          indigo: '#818CF8',
+          violet: '#A78BFA',
+          pink: '#F472B6',
           neural: '#00D4FF'
         },
         surface: {
@@ -50,7 +50,22 @@ theme: {
         dark: {
           primary: '#0B0F1A',
           secondary: '#0F172A',
-          accent: '#1E293B'
+          accent: '#1E293B',
+          surface: '#111827',
+          border: '#374151'
+        },
+        gray: {
+          50: '#F9FAFB',
+          100: '#F3F4F6',
+          200: '#E5E7EB',
+          300: '#D1D5DB',
+          400: '#9CA3AF',
+          500: '#6B7280',
+          600: '#4B5563',
+          700: '#374151',
+          800: '#1F2937',
+          900: '#111827',
+          950: '#030712'
         }
       },
       fontFamily: {
@@ -69,12 +84,12 @@ theme: {
         '5xl': '69px'
       },
       boxShadow: {
-        'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
-        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
+        'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.3), 0 10px 20px -2px rgba(0, 0, 0, 0.2)',
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.2)',
         'neu-light': '5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff',
-        'neu-dark': '5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05)',
-        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
-        'glow': '0 0 20px rgba(99, 102, 241, 0.3)'
+        'neu-dark': '5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.1)',
+        'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.4)',
+        'glow': '0 0 20px rgba(96, 165, 250, 0.4)'
       },
       borderRadius: {
         'xl': '0.75rem',
@@ -113,5 +128,5 @@ theme: {
     },
   },
   plugins: [],
-  darkMode: 'class',
+  darkMode: 'selector',
 }
