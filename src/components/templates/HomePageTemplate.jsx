@@ -4,6 +4,7 @@ import HeroSection from '../organisms/HeroSection'
 import HowItWorksSection from '../organisms/HowItWorksSection'
 import BenefitsSection from '../organisms/BenefitsSection'
 import FeaturesSection from '../organisms/FeaturesSection'
+import TestimonialsSection from '../organisms/TestimonialsSection'
 import EarlyAccessSection from '../organisms/EarlyAccessSection'
 import CtaSection from '../organisms/CtaSection'
 import Footer from '../organisms/Footer'
@@ -26,6 +27,7 @@ return (
       <HowItWorksSection steps={data.steps} />
       <BenefitsSection benefits={data.benefits} />
       <FeaturesSection features={data.features} />
+      <TestimonialsSection />
       <EarlyAccessSection />
       <CtaSection />
       <Footer />
